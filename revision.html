@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Revision dot html</title>
+	<script>
+			var revealed = false;
+			function displayQuestion() {
+			if (revealed == false) {
+				revealed = true;
+				document.getElementById('question').innerText = 'What does RAM stand for?';
+			} else {
+				revealed = false;
+				document.getElementById('question').innerText = 'What does RAM stand for?';
+			}
+			}
+			
+	</script>
+</head>
+
+<body>
+
+<div id="question">
+
+<button type="button" onClick="displayQuestion()";> Display Question </button>
+
+</div>
+
+</body>
+</html>
